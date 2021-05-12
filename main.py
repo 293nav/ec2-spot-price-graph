@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sys
 
-session = boto3.Session(profile_name='naveen')
+session = boto3.Session(profile_name='<AWS-PROFILE-NAME>')
 ec2Client = boto3.client('ec2')
 
 instance_type = sys.argv[1]
